@@ -1,0 +1,151 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0e27;
+            color: #64ffda;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            line-height: 1.4;
+            padding: 20px;
+            overflow-x: auto;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .left-panel {
+            width: 300px;
+            flex-shrink: 0;
+        }
+
+        .mid-panel{
+            width: 300px;
+        }
+
+        .right-panel {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        .comment {
+            color: #546e7a;
+            margin-bottom: 10px;
+        }
+
+        .keyword {
+            color: #c792ea;
+            font-weight: bold;
+        }
+
+        .class-name {
+            color: #82aaff;
+            font-weight: bold;
+        }
+
+        .string {
+            color: #c3e88d;
+        }
+
+        .number {
+            color: #f78c6c;
+        }
+
+        .boolean {
+            color: #ff5370;
+        }
+
+        .method {
+            color: #ffcb6b;
+        }
+
+        .type {
+            color: #89ddff;
+        }
+
+        .bracket {
+            color: #ffffff;
+        }
+
+        .enum-section {
+            margin-bottom: 25px;
+        }
+
+        .enum-title {
+            color: #c792ea;
+            margin-bottom: 8px;
+        }
+
+        .enum-items {
+            margin-left: 20px;
+            color: #ffcb6b;
+        }
+
+        .class-section {
+            margin-bottom: 30px;
+        }
+
+        .method-section {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .info-section {
+            background-color: rgba(100, 255, 218, 0.1);
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 3px solid #64ffda;
+        }
+
+        .view-count {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 8px 12px;
+            border-radius: 20px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            backdrop-filter: blur(10px);
+        }
+
+        .array-bracket {
+            color: #89ddff;
+        }
+
+        .property {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+
+        .indented {
+            margin-left: 40px;
+        }
+
+        .double-indented {
+            margin-left: 60px;
+        }
+
+        .description-text {
+            color: #a6accd;
+            font-style: italic;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
